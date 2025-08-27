@@ -1,2 +1,29 @@
-python-telegram-bot==20.3
-requests
+# Core dependencies
+python-telegram-bot==20.7
+aiohttp==3.9.1
+asyncio-mqtt==0.16.1
+
+# Additional utilities
+requests==2.31.0
+urllib3==2.1.0
+
+# JSON handling (included in Python but explicit for clarity)
+# json is built-in
+
+# Base64 encoding (included in Python but explicit for clarity)
+# base64 is built-in
+
+# I/O operations (included in Python)
+# io is built-in
+
+# Logging (included in Python)
+# logging is built-in
+
+# OS operations (included in Python)
+# os is built-in
+
+# Date and time handling (included in Python)
+# datetime is built-in
+
+# Time operations (included in Python)
+# time is built-in
