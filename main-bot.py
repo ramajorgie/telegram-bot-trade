@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 
 # Konfigurasi
 TELEGRAM_BOT_TOKEN = "8250839004:AAHTECb7HP5DBiWOfqyjfNRYXtgQwsQ0qvs"  # Ganti dengan token bot Telegram Anda
-OPENROUTER_API_KEY = "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"  # Ganti dengan API key OpenRouter Anda
+OPENROUTER_API_KEY = "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"  # Ganti dengan API key OpenRouter Anda
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 class TradingChartBot:
@@ -409,4 +409,5 @@ def main():
         asyncio.run(trading_bot.close_session())
 
 if __name__ == '__main__':
+
     main()
